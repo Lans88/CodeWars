@@ -1,0 +1,12 @@
+func sequence (n: Int) -> [Int] {
+    var array: [Int] = []
+    var i = n
+    while i > 0 {
+        array.append(i)
+        i -= 1
+    }
+    return array
+}
+print (sequence(n: 100))
+
+
